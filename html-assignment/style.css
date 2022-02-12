@@ -1,0 +1,21 @@
+body{
+    font-size: 18px;
+}
+header,footer {
+background-color: burlywood;
+}
+.site-title{
+    color:blue;
+}
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+li:nth-child(odd) {
+    background: green;
+}
+a:link {
+    text-decoration: none;
+    background-color: blueviolet;
+    border: 2px;
+    border-color:aqua;
+  }
