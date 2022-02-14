@@ -1,21 +1,26 @@
-body{
+body {
     font-size: 18px;
 }
 header,footer {
 background-color: burlywood;
 }
-.site-title{
+.site-title {
     color:blue;
 }
-#my-image{
+#my-image {
     box-shadow: 0px 0px 2px 1px black;
+}
+ul {
+    list-style-type: square;
 }
 li:nth-child(odd) {
     background: green;
 }
 a:link {
     text-decoration: none;
-    background-color: blueviolet;
-    border: 2px;
-    border-color:aqua;
+    background-color: greenyellow;
+    border: 5px;
+  }
+  a:hover {
+      background-color: red;
   }
