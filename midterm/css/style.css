@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url("../images/IMG_4175.JPG");
+    background-repeat: no-repeat;
+}
+
+.firstbanner {
+    height: 250px;
+    margin: 0 auto;
+}
+
+img {
+    width: 300px;
+    margin: 0px 10px 10px 10px;
+    float: left;
+}
+
+form{
+border-color: black;
+border-style: solid;
+}
+
+footer{
+text-align: right;
+}
