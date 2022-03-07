@@ -9,15 +9,15 @@
 </head>
 <body>
     <main class="wrapper">
-    <header>
-        <h1>Canada GT</h1>
-        <!--<img src="images/IMG_4175.JPG" alt="car">-->
-    </header>
-        <nav>
-            <ul>
-               <li>Home</li>
-               <li>Contact</li>
-               <li>About</li>
+        <header>
+            <h1>Canada GT</h1>
+            <!--<img src="images/IMG_4175.JPG" alt="car">-->
+        </header>
+        <nav class="navigation">
+            <ul class="nav-menu">
+                <li>Home</li>
+                <li>Contact</li>
+                <li id="lastItem">About</li>
             </ul>
         </nav>
         <section>
@@ -26,14 +26,20 @@
             </h2>
             <div class="firstbanner">
                 <img src="images/gt.jpg">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, rem error quidem nobis non neque omnis minus totam voluptate, sequi cumque a porro similique accusamus vel aut ea praesentium minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, rem error quidem nobis non neque omnis minus totam voluptate, sequi cumque a porro similique accusamus vel aut ea praesentium minimaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, rem error quidem nobis non neque omnis minus totam voluptate, sequi cumque a porro similique accusamus vel aut ea praesentium minimaLorem ipsum dolor sit amet consectetur adipisicing elit. Modi, rem error quidem nobis non neque omnis minus totam voluptate, sequi cumque a porro similique accusamus vel aut ea praesentium minima!</p>
+                <p>A little over a decade ago, Mercedes-Benz let AMG do its own thing. This was a momentous occasion, as AMG's mad scientists were finally let off their leash. The result was the SLS, and it was bonkers. It was replaced with the equally quick yet way more docile AMG GT two-door coupe after a reasonably short lifecycle. With the difficult second album completed, AMG moved on to the third act, the 2021 Mercedes-AMG GT 63 four-door coupe.
+                    Two AMG GT 63 four-door coupes are available, both powered by the same 4.0-liter twin-turbo V8. The standard 63 delivers 577 horsepower and 590 lb-ft of torque, while the 63 S packs a massive 630 hp and 664 lb-ft punch. The AMG GT 63 is not as bespoke as the models mentioned above, though. It has more in common with traditional Mercedes-AMG models. Under the skin, it's essentially underpinned by the Mercedes-AMG E63 Sedan, 
+                    only with an added dose of power. But with full AMG development, the model that takes the place of the old CLS 63, and the same ingredients as the E63 make for a different recipe with the Porsche Panamera Turbo firmly in its sights. 
+                    The GT 63 is meant to be a four-door coupe, based on the design DNA of the GT sports car. While we're not entirely sure the designers completed the brief, we can't deny that it looks sensational. The coupe-inspired design is most noticeable from the rear. Note the slim light clusters, quad tailpipes, and a drastically sloping roofline that aims to mimic the coupe's bulbous butt.
+
+                    You get a long hood with aggressive power bulges and the famous AMG Panamericana grille at the front. The generic headlights are not that impressive, but they come as standard with LED main bulbs and daytime running lights. 19-inch rims are standard on the 63, while the S gets 20s. There are 21-inch options available for both cars
+               </p>
             </div>
         </section>
-        <section>
+        <section >
             <h2>
                 Facts about Super cars
             </h2>
-            <ul>
+            <ul class="superCars">
                 <li>They are light in weight</li>
                 <li>They are Fast</li>
                 <li>They are expensive</li>
@@ -43,7 +49,7 @@
         <section>
             <h2>Contact to learn more</h2>
             <form>
-                <label for="fullname">Your Nmae</label>
+                <label for="fullname">Your Name</label>
                 <br>
                 <input id="fullname" type="text" name="fullname">
                 <br>
@@ -55,18 +61,21 @@
                 <br>
                 <textarea id="message" type="text" name="message"></textarea>
                 <br>
-                <p>Would you like?</p>
-                <input type="radio" id="yes" name="answer" value="Yes">YES</input>
-                <input type="radio" id="no" name="answer" value="No">NO</input>
-                <input type="radio" id="maybe" name="answer">Maybe</input>
+                <p>Would you like to buy a super car?</p>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="answer" value="yes" />
+                <label for="no">No</label>
+                <input type="radio" id="no" name="answer" value="no" />
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="answer" />
                 <br>
                 <br>
-                <button type="submit">Send</button>
+                <button type="submit" id="submit">Send</button>
             </form>
         </section>
     </main>
     <footer>
-        <p>Marwan</p>
-        </footer>
+        <p>&copy;Marwan Alhelwani</p>
+    </footer>
 </body>
 </html>
