@@ -1,5 +1,13 @@
+html, body {
+    margin: 0;
+    padding:0;
+} 
+
 body {
     background-color: bisque;
+    max-width: 1200px;
+    font-family: 'Open Sans', sans-ser;
+    margin: 0 auto;
 }
 
 .logo {
@@ -77,4 +85,61 @@ form {
     width: 100%;
     margin-top: 1.3rem;
 }
+
+
+@media only screen and (min-width: 760px) 
+{
+    #logo {
+        display: static;
+        width: 5%;
+        margin-left: 
+    } 
+    nav a {
+        display:inline-block;
+        margin: 1.5rem;
+    }   
+    form {
+        margin-left: 2rem;
+    }
+
+    nav {
+        
+        
+    }
+
+    .header {
+       display: flex; 
+       justify-content: space-around;
+       align-items: center;
+    }
+
+    .fullservices {
+        display:grid;
+        grid-template-areas: 'a b'
+                            'c d e' ;
+        grid-gap: 0.5rem;
+    }
+    .one {
+        grid-area: a;
+    }
+
+    .two {
+        grid-area: b;
+    }
+
+    .three {
+        grid-area: c;
+    }
+    .four {
+        grid-area: d;
+    }
+    .five {
+        grid-area: e;
+    }
+
+
+
+}
+
+
 
