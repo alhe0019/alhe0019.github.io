@@ -1,3 +1,80 @@
 body {
     background-color: bisque;
 }
+
+.logo {
+    margin-bottom: 1rem;
+}
+
+.header {
+    background-color: black;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: burlywood;
+}
+
+.search {
+    margin-bottom: 1rem;
+}
+
+.lni {
+    ;
+}
+
+nav {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bannercontainer {
+    margin-bottom: -14rem;
+}
+
+.banner {
+    position: relative;
+    top:-300px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.bannerimage {
+    display: block;
+    width: 100%;
+}
+
+.first {
+    background-color: burlywood;
+    padding: 1rem;
+    color: black;
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.link {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.bigimage {
+    display: block;
+    width: 100%;
+    margin-top: 1.3rem;
+}
+
